@@ -10,7 +10,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RIVALES</title>
-    <link rel="shortcut icon" href="./assets/perfil.png">
+    <link rel="shortcut icon" href="../assets/perfil.png">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
     <!--Header-->
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"> <img src="./assets/rivales2.png" width="25px">&nbsp; IVALES</a>
+          <a class="navbar-brand" href="../index.html"> <img src="../assets/rivales2.png" width="25px">&nbsp; IVALES</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,32 +55,60 @@
       </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     
-   <!--Body-->
-    <div class="d-grid gap-2" style="display: inline;text-align: center; margin-top: 100px;">
-        
-        <ul><img src="./assets/rivales2.png" alt="" width="150px" height="150px">
-       </ul></div>
+    <!--Body--> 
+
+<div style="text-align:center; display:inline;margin-left: 200px;"><br>
+
+
+    <h2 class="text-center" style="margin-top: 70px; color: greenyellow;font-family: aboreto; font-weight: 100;">NOSOTROS</h2>
+    <p class="text-center" style="color:white; font-family: aboreto;font-weight: 100;font-size:smaller;">Porque  confiamos  que  la  unión  hace la  fuerza, <br> decidimos  juntar capacidades y  vocaciones  diferentes,  pero con  un  mismo fin  en  común: <br>
+    <strong>MEJORAR TU CALIDAD DE VIDA. </strong> <br>
+    «No  basta  con profesionales de la salud  y  programadores  especializados  en  el  área, <br> sino  que  también  contamos con  tecnología  de  última  generación <br> para que puedas acceder a tu deporte facilmete.»</p>
+    <img src="../assets/nos.png" class="rounded mx-auto d-block" alt="..." width="350px" height="200px">
+</div>
+
+
+
 <br><br><br><br>
-    <p class="d-grid gap-2" style="color: white; text-align: center;">Registrate <br> y encontrá tus rivales</p>
-</div>
-<br>
 
-<!--Boton login y chusmear-->
 
-<div class="d-grid gap-2 col-6 mx-auto" style="display: inline; text-align: center;">
-    <a href="./pages/login.html">
-        <button class="btn btn-primary" type="button">Registrarme</button>
-    </a>
-    
+<!--Boton magia-->
+<div style="display:block; text-align: center">
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Comparti tu magia</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasTopLabel">Subi una foto o video tirando magia para poder compartirla con los demas en nuestra seccion de noticias..</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-<br>
-<div class="d-grid gap-2 col-6 mx-auto" style="display: inline; text-align: center;">
-  <a href="./pages/noticias.html">
-      <button class="btn btn-primary" type="button">Quiero chusmear</button>
-  </a>
-  
+  <div class="offcanvas-body">
+    <div class="input-group mb-3" style="width: fit-content;">
+        <label class="input-group-text" for="inputGroupFile01">Enviar</label>
+        <input type="file" class="form-control" id="inputGroupFile01">
+      </div>
+  </div>
 </div>
-<br><br><br>
+</div>
+<br><br>
+
+<!--Boton clima-->
+<div style="display:block; text-align: center">
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Revisa el clima</button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Antes de salir, veamos el clima...</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <iframe src="https://www.meteoblue.com/es/tiempo/widget/daily?geoloc=detect&days=2&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&windgust=1&winddirection=0&winddirection=1&uv=0&uv=1&humidity=0&humidity=1&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&spot=1&pressure=0&pressure=1&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 108px; height: 493px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/es/tiempo/semana/index?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"></a></div>
+      </div>
+    </div><br><br><br>
+
+
+
+
+
 <!--Footer-->
 <footer class="text-center text-lg-start bg-white text-muted" style="background-color: grey;">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
