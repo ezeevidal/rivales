@@ -4,7 +4,7 @@ $color_2: black;
 $font-family_1: Verdana, Geneva, Tahoma, sans-serif;
 $background-color_1: black;
 $background-color_2: #357a00;
-$background-color_3: grey ;
+$background-color_3: rgb(111, 111, 111) ;
 
 /* items */
 /* Estilos de items especificos */
@@ -43,7 +43,6 @@ body {
 	border-style: solid;
 	grid-area: header;
 	text-align: center;
-  color:white;
 }
 .item-2 {
 	width: auto;
@@ -110,9 +109,7 @@ footer {
 	position: relative;
 	overflow: hidden;
 	iframe {
-		display: inline-block;
+		display: grid;
 		position: relative;
-		width: 100%;
-		height: 100%;
 	}
 }
