@@ -80,6 +80,7 @@ function formatear_fecha($f) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reservar Cancha #<?= htmlspecialchars($numero) ?> | Rivales</title>
   <link rel="stylesheet" href="../assets/css/reservar_cancha.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
   <style>
     .loading { text-align:center; font-size:1rem; color:#555; margin:8px 0; }
   </style>

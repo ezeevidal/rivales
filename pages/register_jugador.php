@@ -49,6 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <title>Rivales - Registro Jugador</title>
     <link rel="stylesheet" href="../assets/css/register_jugador.css">
+    <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 <body>
     <header>

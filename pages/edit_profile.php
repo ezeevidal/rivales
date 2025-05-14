@@ -195,6 +195,7 @@ if ($tipo === 'jugador') {
     </script>
     <?php endif; ?>
     <link rel="stylesheet" href="../assets/css/edit_profile.css">
+    <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 
 <body>

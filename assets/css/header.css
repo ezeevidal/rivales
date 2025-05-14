@@ -157,68 +157,76 @@ body {
     height: 30px; /* Tamaño de los iconos */
     width: 30px;
   }
+
   /* Estilos para el dropdown del perfil */
-.profile-dropdown {
-  position: relative;
-  display: inline-block;
+  .profile-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #333;
+    min-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .dropdown-content.show {
+    display: flex;
+  }
+
+  .dropdown-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  .dropdown-card:hover {
+    background-color: #444;
+  }
+
+  .dropdown-card-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .dropdown-card h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .dropdown-card p {
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.7;
+  }
 }
 
-.profile-img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 50px;
-  right: 0;
-  background-color: #333;
-  min-width: 200px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  z-index: 1;
-  padding: 10px;
-  flex-direction: column;
-}
-
-.dropdown-content.show {
-  display: flex;
-}
-
-.dropdown-card {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  color: #FFF;
-  text-decoration: none;
-  margin-bottom: 10px;
-}
-
-.dropdown-card:hover {
-  background-color: #444;
-}
-
-.dropdown-card-img {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  border-radius: 50%;
-}
-
-.dropdown-card h3 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.dropdown-card p {
-  margin: 0;
-  font-size: 12px;
-  opacity: 0.7;
-}
-
+/* Estilos para desktop */
+@media (min-width: 769px) {
+  /* Oculta los iconos del dropdown en desktop */
+  .dropdown-icons {
+    display: none;
+  }
 }
 
 /* Agregar espacio arriba para el contenido del dashboard */
@@ -230,9 +238,3 @@ main {
 main {
   padding: 20px;
 }
-
-
-
-
-
-

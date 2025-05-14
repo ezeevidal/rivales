@@ -67,12 +67,14 @@ function obtenerRutaImagenPerfil($nombreArchivo) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 <body>
 <header class="top-bar">
   <div class="logo" style="margin-right: auto;">
     <a href="../pages/dashboard.php">
-      <img src="../assets/img/icono rivales w.png" alt="Rivales">
+      <!-- Agregamos el nuevo icono 'icono rivales.png' -->
+      <img src="../assets/img/icono rivales.png" alt="Rivales">
     </a>
   </div>
   <div class="spacer"></div>
@@ -104,6 +106,7 @@ function obtenerRutaImagenPerfil($nombreArchivo) {
     </div>
   </div>
 </header>
+
 
 <script>
 function toggleNotifications() {

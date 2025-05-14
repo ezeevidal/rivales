@@ -29,6 +29,7 @@ $stmt->close();
   <meta charset="UTF-8">
   <title>Invitaciones Enviadas | Rivales</title>
   <link rel="stylesheet" href="../assets/css/invitaciones_enviadas.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 <body>
 <?php include '../templates/header.php'; ?>

@@ -88,6 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Editar Cancha | Rivales</title>
   <link rel="stylesheet" href="../assets/css/add_cancha.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 <body>
 <?php include '../templates/header.php'; ?>

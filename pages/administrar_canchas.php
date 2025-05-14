@@ -14,6 +14,7 @@ require_once __DIR__ . '/../backend/conexion.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Administrar Canchas | Rivales</title>
     <link rel="stylesheet" href="../assets/css/administrar_canchas.css">
+    <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 
 <body>

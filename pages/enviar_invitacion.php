@@ -75,6 +75,7 @@ function obtenerRutaImagenPerfil($nombreArchivo) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../templates/header.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     .top-bar { position: relative; z-index: 1000; display: flex; align-items: center; padding: 0.5rem 1rem; background: #222; }

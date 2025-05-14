@@ -84,6 +84,7 @@ $result = $stmt->get_result();
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mis Reservas | Rivales</title>
   <link rel="stylesheet" href="../assets/css/mis_reservas.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 <body>
 <?php include '../templates/header.php'; ?>

@@ -67,6 +67,7 @@ $result = $stmt->get_result();
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reservar Cancha | Rivales</title>
   <link rel="stylesheet" href="../assets/css/reservar_cancha.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
   <style>
     .filter-form { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; }
     .filter-form div { display: flex; flex-direction: column; }

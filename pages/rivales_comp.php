@@ -65,6 +65,7 @@ $stmt_res->close();
     <meta charset="UTF-8">
     <title>Buscar Rivales o Compañeros</title>
     <link rel="stylesheet" href="../assets/css/rivales.css">
+    <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
     <style>
         .form-filter { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
         .form-filter label { display: flex; flex-direction: column; }

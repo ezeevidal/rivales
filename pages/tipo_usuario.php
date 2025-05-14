@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <title>Rivales - Tipo de Usuario</title>
     <link rel="stylesheet" href="../assets/css/tipo_usuario.css">
+    <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 <body>
     <header>

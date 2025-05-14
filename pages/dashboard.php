@@ -24,6 +24,7 @@ if (isset($_SESSION['mostrar_bienvenida']) && $_SESSION['mostrar_bienvenida']) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dashboard | Rivales</title>
   <link rel="stylesheet" href="../assets/css/dashboard.css">
+  <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 <body>
   <?php include '../templates/header.php'; ?>

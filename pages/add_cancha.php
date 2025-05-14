@@ -74,6 +74,7 @@ function generar_horarios() {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Agregar Cancha | Rivales</title>
     <link rel="stylesheet" href="../assets/css/add_cancha.css">
+    <link rel="shortcut icon" href="../assets/img/icono rivales.png" type="image/x-icon">
 </head>
 
 <body>
