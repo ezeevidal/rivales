@@ -1,0 +1,179 @@
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body con disposición vertical */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+/* El contenedor que contiene todo el contenido principal */
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;     
+    padding: 20px;
+}
+.main-split{
+        margin: 0 auto;
+        display: flex;
+}
+/* Sección izquierda: logo */
+    .left-logo {
+    width: 100%; /* Mitad del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-logo img {
+    max-width: 80%;
+    opacity: 0.95;
+}
+
+/* Sección derecha: formulario de login */
+.right-form {
+    width: 100%;
+    background: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+/* Título */
+.right-form h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #00FF95;
+    font-weight: 600;
+}
+
+/* Inputs y botón */
+.right-form input,
+.right-form button {
+    width: 100%;
+    padding: 14px;
+    margin:12px 0;
+    background: #444;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+   
+}
+
+.right-form input:focus,
+.right-form button:focus {
+    outline: none;
+    border: 1px solid #00FF95;
+    background: #333;
+}
+
+.right-form button {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.right-form button:hover {
+    background: #00FF95;
+    box-shadow: 0 0 12px rgba(0, 255, 149, 0.7);
+    color: black;
+}
+
+/* Enlaces */
+.right-form a {
+    color: #00FF95;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 8px;
+    transition: color 0.3s;
+}
+
+.right-form a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 12px 0;
+    color: #E0E0E0;
+    font-size: 14px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.5);
+}
+/* Responsive styles */
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .main-split {
+        flex-direction: column;
+    }
+
+    .left-logo {
+        width: 100%; /* En móviles ocupa toda la pantalla */
+        margin: 0 auto;
+    }
+
+    .right-form {
+        width: 90%; /* En móviles el formulario ocupa el 90% */
+    }
+
+    .right-form h2 {
+        font-size: 22px; /* Reducir el tamaño de los títulos en móviles */
+    }
+
+    .right-form input, .right-form button {
+        font-size: 14px; /* Reducir el tamaño de fuente en inputs y botones */
+    }
+
+    .footer {
+        font-size: 10px; /* Reducir tamaño de fuente en el footer */
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+    .main-split {
+        flex-direction: column;
+    }
+
+    .left-logo {
+        width: 50%; /* En tabletas el logo ocupa la mitad */
+    }
+
+    .right-form {
+        width: 80%; /* En tabletas el formulario ocupa el 80% */
+    }
+
+    .right-form h2 {
+        font-size: 24px; /* Reducir el tamaño de los títulos en tabletas */
+    }
+}

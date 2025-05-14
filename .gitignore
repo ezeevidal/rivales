@@ -1,0 +1,6 @@
+# Ignorar la carpeta phpMailer
+libs/phpmailer/
+guardar_nueva.php
+olvide_password.php
+procesar_recuperacion.php
+reestablecer.php

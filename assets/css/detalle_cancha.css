@@ -1,0 +1,51 @@
+.form-reserva {
+    background: #111;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0,255,115,0.2);
+    width: 50%;
+}
+
+.form-reserva label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #00ff73;
+}
+
+.form-reserva input, 
+.form-reserva select {
+    width: 50%;
+    padding: 0.75rem;
+    border: 1px solid #00ff73;
+    border-radius: 5px;
+    background: #222;
+    color: #00ff73;
+}
+
+.form-reserva button {
+    margin-top: 2rem;
+    width: 50%;
+    padding: 0.8rem;
+    background: #00ff73;
+    color: #111;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-cancel {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #666;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.card{
+    width: 400px;
+    height: 400px;
+}

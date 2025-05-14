@@ -1,0 +1,49 @@
+/* Estilos específicos del footer */
+.footer {
+  background-color: #1f1f1f; /* Fondo gris oscuro */
+  text-align: center;
+  padding: 12px 0;
+  color: #e0e0e0;
+  font-size: 10px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: auto;
+}
+
+/* Contenedor del texto en el footer */
+.footer__container {
+  width: 100%;
+}
+
+/* Texto del footer */
+.footer__copy {
+  font-size: 10px;
+  color: #e0e0e0;
+}
+
+/* Responsive styles */
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0; /* Reducir padding en móviles */
+    font-size: 12px; /* Aumentar ligeramente el tamaño de fuente */
+    width: 100%;
+    }
+
+  .footer__copy {
+    font-size: 8px; /* Aumentar tamaño de fuente del texto del footer */
+  }
+}
+
+/* Para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 12px 0; /* Mantener el padding para tabletas */
+    font-size: 8px; /* Aumentar ligeramente el tamaño de fuente */
+    width: 100%;
+  }
+
+  .footer__copy {
+    font-size: 8px; /* Aumentar tamaño de fuente del texto del footer */
+  }
+}
